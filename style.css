@@ -17,8 +17,18 @@ h3 {
     color: darkcyan;
 }
 
-nav {
+.head {
+
+
+    background-image: linear-gradient(pink, aqua);
+}
+
+.head a {
     text-align: right;
+}
+
+.position {
+    display: flex;
 }
 
 span {
@@ -75,8 +85,10 @@ footer {
 }
 
 #followers {
-    border-radius: 1%;
-    box-shadow: 20px 20px 50px 20px gray;
+    border-radius: 10%;
+    box-shadow: 10px 10px 50px 10px gray;
+    width: 80%;
+    text-align: right;
 }
 
 .followers {
