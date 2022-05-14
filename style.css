@@ -17,18 +17,28 @@ h3 {
     color: darkcyan;
 }
 
-.head {
-
-
-    background-image: linear-gradient(pink, aqua);
-}
+.head {}
 
 .head a {
     text-align: right;
 }
 
-.position {
+.head {
     display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(pink, aqua);
+    align-items: center;
+}
+
+.brandName {
+    margin: 0;
+    padding: 0 16px;
+    flex-grow: 1;
+}
+
+.manu {
+    display: inline-flex;
+    padding: 0 16px;
 }
 
 span {
@@ -50,6 +60,7 @@ a {
 
 .flex-area {
     display: flex;
+    justify-content: center;
 }
 
 .half-width {
@@ -84,11 +95,12 @@ footer {
     background-color: black;
 }
 
-#followers {
+.flex-area-iner {
     border-radius: 10%;
     box-shadow: 10px 10px 50px 10px gray;
     width: 80%;
     text-align: right;
+    display: inline-flex;
 }
 
 .followers {
